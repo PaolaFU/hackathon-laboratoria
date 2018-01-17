@@ -1,140 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
   var pelisSection = $('#peliculas');
   var buttonSearch = $('#button-search');
@@ -144,7 +7,7 @@ $(document).ready(function() {
     var inputMovie = $('#pelis-input').val();
     // var url = 'http://www.omdbapi.com/?s=' + inputMovie + '&apikey=cde77cc6';
     // console.log(url);
-    $.getJSON('http://www.omdbapi.com/?s=' + inputMovie + '&apikey=cde77cc6').then(function(response) {
+    $.getJSON('https://www.omdbapi.com/?s=' + inputMovie + '&apikey=cde77cc6').then(function(response) {
       console.log(response);
       for (var m in response.Search) {
         var movie = response.Search[m];
@@ -164,7 +27,7 @@ $(document).ready(function() {
         $('#click-movie').empty();
         var dataIdMovie = $(this).data('id');
         alert(dataIdMovie);
-        $.getJSON('http://www.omdbapi.com/?i=' + dataIdMovie + '&apikey=cde77cc6').then(function(response) {
+        $.getJSON('https://www.omdbapi.com/?i=' + dataIdMovie + '&page=2&apikey=cde77cc6').then(function(response) {
           var mTitle = response.Title;
           var mPoster = $('<div><img  src="' + response.Poster + '"height=120px width= 70px data-id ="' + idMovie + '"></div>');
           var mPlot = response.Plot;
