@@ -7,11 +7,14 @@ Se realizó una lluvia de ideas para ver que tema  se podría realizar, Una  vez
 
 Para crear la aplicación se realizaron  entrevistas face to face y breves encuestas a diversas personas.
 
+## **Planificación**
+
+![Planificaión](assets/images/planificaión.jpg)
 
 ## **Prototipos iniciales**
 
-![Prototipos](assets/img/img1.jpeg)
-![Prototipos](assets/img/img2.jpeg)
+![Prototipos](assets/images/image1.jpeg)
+![Prototipos](assets/images/image2.jpeg)
 
 ## **Descripción del producto a realizar**
 
