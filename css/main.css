@@ -17,3 +17,12 @@
 .heigth {
   height: 100px;
 }
+.background-heroes{
+  background: url(../assets/images/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+   
+ 
+}
