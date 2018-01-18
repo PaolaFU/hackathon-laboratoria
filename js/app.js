@@ -1,14 +1,20 @@
-//Inicializando, el menú select de materialize
-$(document).ready(function() {
-    $('select').material_select();
-	alert('hi');
-  var $search = $('#input-search');
-  //implementando plugin autocomplete
-  // array para la lista de autocompletar
-  var tagsSuperHero = ['thor', 'superman', 'capitan america','a'];
-  //
-  $search.autocomplete({
-    source: tagsSuperHero
-  });	
 
- });
+$(document).ready(function() {
+  /* Funcionalidad para la primera vista */
+  // Declarando variable para el filtrado posterior
+  var tags = '';
+  
+  // Declarando variables para acceder a los elementos del DOM
+  var $btnMarvell = $('#button-marvel');
+  var $btnDC = $('#button-dc');
+  // Redireccionar a la siguiente pagina
+  $btnMarvell.on('click', function() {
+    $(location).attr('href', 'views/marvel.html');
+    tags = 'marvell';
+  });
+  $btnDC.on('click', function() {
+    $(location).attr('href', 'views/marvel.html');
+    tags = 'dc';
+  });
+  
+});	
