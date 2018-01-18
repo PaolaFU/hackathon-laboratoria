@@ -34,14 +34,11 @@
 
 .box-text{
   margin:25px;
-  width:250px;
-  height:250px;
+  height:300px;
   background:#fff;
   border: solid black;
   border-color: black;
   float:left;
-
-  width:300px;
   border-width: 3px 3px 5px 5px;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);

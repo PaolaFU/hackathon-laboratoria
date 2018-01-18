@@ -5,4 +5,5 @@ $(document).ready(function() {
   $('.carousel').carousel();
   //Inicializando, el slider select de materialize
   $('.slider').slider();
+
 });
