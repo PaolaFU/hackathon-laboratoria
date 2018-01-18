@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Bangers);
-
 .nav{
   background-color: #000000;
 }
@@ -26,4 +24,94 @@
 
 .carrusel-movil{
   margin-top: -100px;
+}
+
+.content-text-comic, body{
+  background:#fff;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+
+.box-text{
+  margin:25px;
+  width:250px;
+  height:250px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left;
+
+  width:300px;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+}
+
+.text-comic{
+  width:300px;
+  margin:15px;
+  transform: rotate(-2deg);
+}
+
+.nav-select, .logo{
+  color:white;
+}
+
+.style-option{
+  color: red;
+}
+
+.comic-content{
+  width: 600px;
+  height: 220px;
+  top: 60px;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.text {
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  left: 37px;
+  transform: skew(-15deg);
+  box-shadow: 3px 5px 10px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.text:before {
+  content: "";
+  dislay: block;
+  position: absolute;
+  height: 200px;
+  width: 20px;
+  left: -27px;
+  transform: skew(15deg);
+  background: white;
+  border-left: 1px solid rgba(0,0,0,0.05);
+   -webkit-backface-visibility: hidden;
+}
+
+
+.content-box-comic{
+  position: absolute;
+  right: 0px;
+  width: 650px;
+  height: 95px;
+}
+
+
+figcaption{
+    border-radius: 1px 100px 100px 100px;
+    background: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    border-color:black;
+    padding:30px;
+    width:200px;
+    height:100px;
+    bottom: 140px;
+    right: 18px;
+    color:black;
+    margin:100px;
 }
