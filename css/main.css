@@ -4,25 +4,37 @@
   box-sizing: border-box;
 }
 
-.peliculas {
-  width: 100%;
-}
-.left {
-  float: left;
-}
-.border {
-  border: 1px solid black;
-  overflow: auto;
-}
-.heigth {
-  height: 100px;
-}
+
+
 .background-heroes{
   background: url(../assets/images/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   
-  
-   
- 
+}
+
+/** ------MARVEL----HOME------/*/
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.nav{
+  background-color: #000000;
+}
+
+.box-part-carrusel{
+  display: inline-block;
+	width: 100%;
+  background-image: url('https://apod.nasa.gov/apod/image/0901/ngc2419a7_hammar.jpg');
+  /*http://www.hdfondos.eu/preview/get_photo/506983/1920/1200*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 95%;
+	justify-content: flex-end;
+}
+
+.carrusel-deskopt{
+  margin-top: 15em;
+}
+
+.carrusel-movil{
+  margin-top: -100px;
 }
