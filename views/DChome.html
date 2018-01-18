@@ -10,53 +10,114 @@
     <link rel="stylesheet" href="../vendors/Bootstrap/css/Bootstrap.min.css">
     <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="../assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/homepage.css">
-	  <link rel="stylesheet" href="../css/homepage2.css">
+    <link rel="stylesheet" href="../css/DChome.css">
   </head>
   <body>
     <!--Movil-->
     <!--Nav-->
-    <div class="nav-movil container-flex">
+    <div class="nav nav-movil container-flex">
       <div class="row">
         <div class="col s12 l12 xl12">
-          <div class="input-field col s6 m4">
+          <div class="input-field col s6 l4">
             <select class="icons">
               <option value="" disabled selected>SUPER HÉROE</option>
               <option value="" data-icon="images/sample-1.jpg" class="left circle">Superman</option>
               <option value="" data-icon="images/office.jpg" class="left circle">Batman</option>
               <option value="" data-icon="images/yuna.jpg" class="left circle">Wonder Woman</option>
+              <option value="" data-icon="images/yuna.jpg" class="left circle">Flash</option>
             </select>
           </div>
-          <div class="input-field col s6 m4">
+          <div class="input-field col s6 l4">
             <select class="icons">
               <option value="" disabled selected>VILLANOS</option>
               <option value="" data-icon="images/sample-1.jpg" class="left circle">Wason</option>
               <option value="" data-icon="images/office.jpg" class="left circle">Lex Luthor</option>
             </select>
           </div>
-          <div class="nav-wrapper col s6 m4">
-            <form>
-              <div class="input-field">
-                <input id="search" type="search" required>
-                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
+        </div>
+      </div>
+    </div>
+    <!--part-home-inferior CARRUSEL-->
+    <div class="box-part-carrusel container-flex">
+      <div class="row">
+        <!--part-home-inferior LOGO DC-->
+        <div class="logo-dc">
+          <img class="offset-s3 offset-l4 col s6 l4" src="http://da75ad2241a052658ba0-52e5aec7dc9b972026a9f1e296cb990a.r2.cf2.rackcdn.com/DC%20Comics%20logo.png" alt="">
+        </div>
+        <!--part-home-inferior CARRUSEL movil-->
+        <div class="carrusel-movil hide-on-large-only">
+          <div class="carousel">
+            <a class="btn-photo-redirecciona carousel-item" href="#one!">
+              <img src="https://geekandsundry.com/wp-content/uploads/2015/05/justice-leauge-e1432851792873-970x545.jpg">
+              <div class="caption center-align">
+                <h3 class="style-letter-corousel"></h3>
               </div>
-            </form>
+            </a>
+            <a class="btn-videos carousel-item" href="#two!">
+              <img src="http://sf.co.ua/13/06/wallpaper-2837413.jpg">
+              <div class="caption center-align">
+                <h3 class="style-letter-corousel"></h3>
+              </div>
+            </a>
+            <a class="carousel-item" href="#three!">
+              <img src="http://www.dccomics.com/sites/default/files/GalleryChar_1900x900_JL3_14-15_52ab8f55dc6f22.91291238.jpg">
+              <div class="caption center-align">
+                <h3 class="style-letter-corousel"></h3>
+              </div>
+            </a>
+            <a class="carousel-item" href="#four!">
+              <img src="http://www.passion-estampes.com/deco/affiches/comics/dc-comics-batman-forever.jpg">
+              <div class="caption center-align">
+                <h3 class="style-letter-corousel"></h3>
+              </div>
+            </a>
+            <a class="carousel-item" href="#five!">
+              <img src="http://www.dccomics.com/sites/default/files/FLSPv2_Cv1_R1_marquee_57ef19df8d0256.03779299.jpg">
+              <div class="caption center-align">
+                <h3 class="style-letter-corousel"></h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--part-home-inferior CARRUSEL deskopt-->
+        <div class="carrusel-deskopt hide-on-small-only">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="https://geekandsundry.com/wp-content/uploads/2015/05/justice-leauge-e1432851792873-970x545.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3 class="letter-slider"></h3>
+                </div>
+              </li>
+              <li>
+                <img src="http://sf.co.ua/13/06/wallpaper-2837413.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3 class="letter-slider"></h3>
+                </div>
+              </li>
+              <li>
+                <img src="http://www.dccomics.com/sites/default/files/GalleryChar_1900x900_JL3_14-15_52ab8f55dc6f22.91291238.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3 class="letter-slider"></h3>
+                </div>
+              </li>
+              <li>
+                <img src="http://www.passion-estampes.com/deco/affiches/comics/dc-comics-batman-forever.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3 class="letter-slider"></h3>
+                </div>
+              </li>
+              <li>
+                <img src="http://www.dccomics.com/sites/default/files/FLSPv2_Cv1_R1_marquee_57ef19df8d0256.03779299.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3 class="letter-slider"></h3>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <!--part-home-inferior-->
-    <div class="container-flex">
-      <div class="row">
-        <div class="hide-on-large-only">
-
-        </div>
-        <div class="hide-on-small-only">
-
-          </div>
-        </div>
-      </div>
 
 
 

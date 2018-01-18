@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.nav{
+  background-color: #000000;
+}
+
+.box-part-carrusel{
+  display: inline-block;
+	width: 100%;
+	background-image: url('https://professor-falken.com/wp-content/uploads/2017/01/noche-estrellas-espacio-constelacion-galaxia-universo-Fondos-de-Pantalla-HD-professor-falken.com_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 95%;
+	justify-content: flex-end;
+}
+
+.carrusel-deskopt{
+  margin-top: 200px;
+}
+
+.carrusel-movil{
+  margin-top: -100px;
+}
