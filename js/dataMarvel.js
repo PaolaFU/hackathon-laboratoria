@@ -126,4 +126,4 @@ var personajesM = [
     'Capitan america winter soldier: Tiene tonos más oscuros, luce más utilitario y le permite una mayor movilidad. Además, su escudo se adhiere a su espalda magnéticamente. ']
     
   },
-  
+]
