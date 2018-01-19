@@ -17,7 +17,7 @@ Para crear la aplicación se realizaron  entrevistas face to face y breves encue
 ![Prototipos](assets/images/image2.jpeg)
 
 ## **Producto final**
-
+![Producto](assets/images/producto.gif)
 
 ## **Descripción del producto a realizar**
 
