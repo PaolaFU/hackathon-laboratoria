@@ -28,7 +28,7 @@ $(document).ready(function() {
           <h3>Plot</h3>
           ${movie.Plot}
           <hr>
-          <a href="../views/marvel-home.html" class="btn btn-default">Go Back To Search</a>
+          <a href="../views/marvel-home.html" class="btn btn-default btn-black">Go Back To Search</a>
         </div>
       </div>
     `;

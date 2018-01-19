@@ -70,3 +70,28 @@
 .carrusel-movil{
   margin-top: -100px;
 }
+
+
+/*Estilos para la vista Marvel Film*/
+#movies img, #movie-details img{
+  width:100%;
+  
+  
+}
+@media(min-width:960px){
+  #movies .well{
+    height: 420px;
+  }
+
+  #movies img{
+    height:320px;
+  }
+} 
+.white-roboto{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.btn-black{
+  background-color:black;
+}
