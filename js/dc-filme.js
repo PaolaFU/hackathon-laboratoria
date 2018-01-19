@@ -1,8 +1,4 @@
 $(document).ready(function() {
-  var character = window.localStorage.getItem('character');
-});
-
-$(document).ready(function() {
    var pelisSection = $('#peliculas');
     $('#peliculas').empty();
     var inputMovie = window.localStorage.getItem('character');
@@ -12,33 +8,37 @@ $(document).ready(function() {
       console.log(response);
       for (var m in response.Search) {
         var movie = response.Search[m];
-        var posterMovie = movie.Poster;
         var idMovie = movie.imdbID;
-        if (posterMovie === 'N/A') {
-          posterMovie = 'assets/images/no-photo.jpg';
+        var dontShow = ['tt1830911','tt0080745','tt3623726','tt0091306','tt1054588','tt0959086','tt0027623','tt0073639']
+        var centinel = false
+        for (var j = 0; j < dontShow.length; j++) {
+          if(idMovie === dontShow[j]) {
+            centinel = true;
+          }
         }
-        var divMovie = $('<div class="left border">');
-        var imgPoster = $('<img src="' + posterMovie + '" width= 70px data-id ="' + idMovie + '">');
-        divMovie.append(movie.Title);
-        divMovie.append(imgPoster);
-        $('#peliculas').append(divMovie);
+        if(centinel === false) {
+          if (posterMovie === 'N/A') {
+            posterMovie = 'assets/images/no-photo.jpg';
+          }
+          var posterMovie = movie.Poster;
+          var divMovie = $('<div class="left border"></div>');
+          var imgPoster = $('<img src="' + posterMovie + '" width= 70px data-id ="' + idMovie + '">');
+          divMovie.append(movie.Title);
+          divMovie.append(imgPoster);
+          $('#peliculas').append(divMovie);
+        }
       }
 
+
       $('#peliculas div img').on('click', function() {
-        $('#click-movie').empty();
+        // $('#modal-content').empty();
         var dataIdMovie = $(this).data('id');
-        alert(dataIdMovie);
-        $.getJSON('https://www.omdbapi.com/?i=' + dataIdMovie + '&page=2&apikey=cde77cc6').then(function(response) {
-          var mTitle = response.Title;
-          var mPoster = $('<div><img  src="' + response.Poster + '"height=120px width= 70px data-id ="' + idMovie + '"></div>');
-          var mPlot = response.Plot;
-          var newDiv = $('<div>');
-          newDiv.append(mTitle);
-          newDiv.append(mPoster);
-          newDiv.append(mPlot);
-          $('#click-movie').append(newDiv);
-        });
+        window.localStorage.setItem('idMovie', dataIdMovie);
+        window.location.href = '../views/DCshowing.html';
+        // alert(dataIdMovie);
       });
+
+      // $('#modal1').modal('open');
     // para las paginas siguientes
     // $.getJSON('http://www.omdbapi.com/?s=' + inputMovie + '&page=2&apikey=cde77cc6').then(function(responseJ) {
     // console.log(responseJ);
