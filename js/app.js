@@ -23,7 +23,7 @@ $(document).ready(function() {
     localStorage.characterM=$valueCharacter;
     //window.localStorage.setItem('characterM', $valueCharacter);
     console.log(localStorage.characterM);
-    // Redirecciona a la siguiente vista 
+    // Redirecciona a la siguiente vista
     $(location).attr('href', '../views/marvel-personaje.html');
   });
 

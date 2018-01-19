@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   var imgs = $('#m > img');
 var len = imgs.length;
 
@@ -22,4 +22,4 @@ function anim(i) {
 
 anim(0);
 
-});
+});*/

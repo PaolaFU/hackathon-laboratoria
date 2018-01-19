@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.css">
     <link rel="stylesheet" href="../vendors/Bootstrap/css/Bootstrap.min.css">
     <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="../css/DChome.css">
@@ -23,12 +22,12 @@
             LOGO
           </div>
           <div class="nav-select input-field col s6 l3">
-            <select class="icons">
+            <select id="select-character" class="icons">
               <option value="" disabled selected>SUPER HÉROE</option>
-              <option value="" data-icon="https://st-listas.20minutos.es/images/2012-04/329009/3507860_640px.jpg?1424188531" class="left circle superman">Superman</option>
-              <option value="" data-icon="https://i.ytimg.com/vi/q2Xw89AIKfg/hqdefault.jpg" class="left circle">Batman</option>
-              <option value="" data-icon="https://i.pinimg.com/736x/46/be/3f/46be3f25b63ef94dc5692228300815a0--mac-cosmetics-childhood-memories.jpg" class="left circle">Wonder Woman</option>
-              <option value="" data-icon="http://3.bp.blogspot.com/_FMEJcIcnSqo/TPQNgraGYQI/AAAAAAAAB6k/6ZZMbfA_bZA/s1600/flash01.jpg" class="left circle">Flash</option>
+              <option value="superman" data-icon="https://st-listas.20minutos.es/images/2012-04/329009/3507860_640px.jpg?1424188531" class="left circle superman">Superman</option>
+              <option value="batman" data-icon="https://i.ytimg.com/vi/q2Xw89AIKfg/hqdefault.jpg" class="left circle">Batman</option>
+              <option value="wonder woman" data-icon="https://i.pinimg.com/736x/46/be/3f/46be3f25b63ef94dc5692228300815a0--mac-cosmetics-childhood-memories.jpg" class="left circle">Wonder Woman</option>
+              <option value="flash" data-icon="http://3.bp.blogspot.com/_FMEJcIcnSqo/TPQNgraGYQI/AAAAAAAAB6k/6ZZMbfA_bZA/s1600/flash01.jpg" class="left circle">Flash</option>
             </select>
           </div>
           <div class="nav-select input-field col s6 l3">
@@ -48,12 +47,15 @@
         <div class="logo-dc">
           <img class="offset-s3 offset-l4 col s6 l4" src="http://da75ad2241a052658ba0-52e5aec7dc9b972026a9f1e296cb990a.r2.cf2.rackcdn.com/DC%20Comics%20logo.png" alt="">
         </div>
-        <!--Añadiendo carrusel dinámico-->
-        <div class="offset-s3 offset-l3 col s12 l6" id="m">
+        <!---->
+        <div id="slider-k">
         </div>
       </div>
     </div>
 
+    <div id="last" class="">
+
+    </div>
     <div class="container-flex">
       <div class="row">
         <div class="data-api">
@@ -72,6 +74,12 @@
       </div>
     </div>
 
+    <div id="peliculas" class="">
+
+    </div>
+
+    <a href="../views/DChome.html.html" class="btn btn-default btn-black">Go Back To Search</a>
+
 
 
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
@@ -83,7 +91,7 @@
     <script type="text/javascript" src="../js/app.js"></script>
     <script type="text/javascript" src="../js/dataDC.js"></script>
     <script type="text/javascript" src="../js/workdata.js"></script>
-    <script type="text/javascript" src="../js/liliam.js"></script>
     <script type="text/javascript" src="../js/slider.js"></script>
+    <script type="text/javascript" src="../js/dc-filme.js"></script>
   </body>
 </html>
