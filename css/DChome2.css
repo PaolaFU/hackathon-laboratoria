@@ -26,17 +26,12 @@
   margin-top: -100px;
 }
 
+
+
 .content-text-comic, body{
   background:#fff;
   font-family: 'Bangers', cursive;
   font-size: 25px;
-}
-
-.logo{
-  margin-top: 0.5em;
-  width: 9em;
-  height: 3em;
-  margin-left: 1em;
 }
 
 .box-text{
@@ -58,6 +53,7 @@
   transform: rotate(-2deg);
 }
 
+.cont-inf-film{}
 .img-info1{
   border-radius: 50%;
   margin-top: 5%;
@@ -153,7 +149,11 @@ figcaption{
     color:black;
     margin:100px;
 }
-/*
+
+
+/*section:hover article{
+  animation-play-state: paused;
+}*/
 #m {
   width: 100%;
   height: 300px;
@@ -164,52 +164,15 @@ figcaption{
   position: absolute;
   opacity: 0;
   height: 300px;
-}*/
-
-.img-data{
-  border-radius: 50%;
-  height: 200px;
-  width: 80%;
-  margin-top: 3%;
 }
 
-.cont-film{
-  width: 80%;
+
+.style-name{
+  font-size: 80px;
+  color: #bf2b37;
 }
 
-#peliculas img{
-  width:100%;
-
-
-}
-@media(min-width:960px){
-  #peliculas .well{
-    height: 420px;
-  }
-
-  #peliculas img{
-    height:320px;
-  }
-}
-
-.cont-inf-film{
-  text-align: justify;
-}
-
-.style-title{
-  font-size: 100px;
+.style-carac{
+  font-size: 30px;
   color: white;
-  text-align: center;
-}
-
-.cont-inf{
-  display: inline-block;
-	width: 100%;
-	background-image: url('https://images7.alphacoders.com/568/568756.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 15%;
-	justify-content: flex-end;
-  color: white;
-  font-size: 39px;
 }
