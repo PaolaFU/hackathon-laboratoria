@@ -33,8 +33,14 @@
 }
 
 .box-text{
+<<<<<<< HEAD
   margin:25px;
   height:300px;
+=======
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
   background:#fff;
   border: solid black;
   border-color: black;
@@ -45,11 +51,24 @@
 }
 
 .text-comic{
+<<<<<<< HEAD
   width:300px;
   margin:15px;
   transform: rotate(-2deg);
 }
 
+=======
+  width:80%;
+  margin:10%;
+  transform: rotate(-2deg);
+}
+
+.img-info1{
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
 .nav-select, .logo{
   color:white;
 }
@@ -59,8 +78,13 @@
 }
 
 .comic-content{
+<<<<<<< HEAD
   width: 600px;
   height: 220px;
+=======
+  width: 100%;
+  height: 150px;
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
   top: 60px;
   position: relative;
   margin: 0px auto;
@@ -68,8 +92,13 @@
 }
 
 .text {
+<<<<<<< HEAD
   width: 320px;
   height: 200px;
+=======
+  width: 85%;
+  height: 130px;
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
   position: absolute;
   left: 37px;
   transform: skew(-15deg);
@@ -79,18 +108,56 @@
 
 .text:before {
   content: "";
+<<<<<<< HEAD
   dislay: block;
   position: absolute;
   height: 200px;
+=======
+  position: absolute;
+  height: 130px;
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
   width: 20px;
   left: -27px;
   transform: skew(15deg);
   background: white;
   border-left: 1px solid rgba(0,0,0,0.05);
+<<<<<<< HEAD
    -webkit-backface-visibility: hidden;
 }
 
 
+=======
+  -webkit-backface-visibility: hidden;
+}
+
+.content-inf-2{
+  display: inline-block;
+	width: 100%;
+	background-image: url('http://www.hdfondos.eu/preview/get_photo/72032/1920/1200');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 15%;
+	justify-content: flex-end;
+}
+
+.content-inf-5{
+  display: inline-block;
+	width: 100%;
+	background-image: url('https://images7.alphacoders.com/510/thumb-1920-510603.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 15%;
+	justify-content: flex-end;
+}
+.img-info3{
+  height: 150px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.style-h5{
+  font-size: 50px;
+}
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
 .content-box-comic{
   position: absolute;
   right: 0px;
@@ -98,6 +165,12 @@
   height: 95px;
 }
 
+<<<<<<< HEAD
+=======
+.logo-dc{
+  margin: 20px;
+}
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
 
 figcaption{
     border-radius: 1px 100px 100px 100px;
@@ -113,6 +186,7 @@ figcaption{
     margin:100px;
 }
 
+<<<<<<< HEAD
 /*dcFilme*/
 #slider-k {
 background: #fff;
@@ -148,3 +222,20 @@ transform: skewX(20deg);
 
 #slider-k > div:first-child {margin-left: -63px;}
 #slider-k > div:last-child {margin-right: -63px;}
+=======
+
+/*section:hover article{
+  animation-play-state: paused;
+}*/
+#m {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#m img {
+  position: absolute;
+  opacity: 0;
+  height: 300px;
+}
+>>>>>>> d03606bb72374291ceb30575d2335407282e672f
