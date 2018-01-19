@@ -21,8 +21,8 @@ $(document).ready(function() {
           posterMovie = 'assets/images/no-photo.jpg';
         }
         var posterMovie = movie.Poster;
-        var divMovie = $('<div class="card text-center well grey lighten-3"></div>');
-        var imgPoster = $('<img src="' + posterMovie + '" data-id ="' + idMovie + '">');
+        var divMovie = $('<div class="card text-center well grey lighten-3 col l4 s12"></div>');
+        var imgPoster = $('<img class="thumbnail" src="' + posterMovie + '" data-id ="' + idMovie + '">');
         var title = $('<h5>' + movie.Title + '</h5>');
         divMovie.append(title);
         divMovie.append(imgPoster);
@@ -38,10 +38,10 @@ $(document).ready(function() {
         // console.log(character);
         for (var j = 0; j < character.length; j++) {
           // var fotoCharacter = character[j]
-          var li = $('<li>');
           var img = character[j];
-          li.append(img);
-          $('#slider-k').append(li);
+          $('#m').append(img);
+
+
         }
       }
     }

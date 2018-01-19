@@ -153,11 +153,7 @@ figcaption{
     color:black;
     margin:100px;
 }
-
-
-/*section:hover article{
-  animation-play-state: paused;
-}*/
+/*
 #m {
   width: 100%;
   height: 300px;
@@ -168,4 +164,30 @@ figcaption{
   position: absolute;
   opacity: 0;
   height: 300px;
+}*/
+
+.img-data{
+  border-radius: 50%;
+  height: 200px;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.cont-film{
+  width: 80%;
+}
+
+#peliculas img{
+  width:100%;
+
+
+}
+@media(min-width:960px){
+  #peliculas .well{
+    height: 420px;
+  }
+
+  #peliculas img{
+    height:320px;
+  }
 }
