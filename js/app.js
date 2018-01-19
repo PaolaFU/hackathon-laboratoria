@@ -18,8 +18,9 @@ $(document).ready(function() {
   $selectCharacterM.on('change',function() {
     var $valueCharacter=$selectCharacterM.val();
     // Almacena el valor de la opcion elegida
-    localStorage.character=$valueCharacter;
-    
+    localStorage.characterM=$valueCharacter;
+    window.localStorage.setItem('characterM', $valueCharacter);
+    console.log(localStorage.characterM);
     // Redirecciona a la siguiente vista 
     $(location).attr('href', '../views/marvel-personaje.html');
   });
