@@ -2,22 +2,54 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
 
 .background-heroes{
-  background: url(../assets/images/principal.jpg);
+  background: url(../assets/images/principal3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
+  width: 100%;
+  height: 100vh;
+}
+.container-buttons{
+  display: flex;
+	flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.container-buttons .btn-md{
+  margin-top: 30%;
+  margin-left:3%;
+  margin-right: 3%;
+} 
+
+.btn-md{
+  background: #1c314c;
+  border: none;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+  width: 4em;
+  color: white;
 }
 
+
 /** ------MARVEL----HOME------/*/
-@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 
 .nav{
   background-color: #000000;
+}
+.content-text-comic, body{
+  background:#fff;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+.nav-select, .logo{
+  color:white;
 }
 
 .box-part-carrusel{
@@ -32,7 +64,7 @@
 }
 
 .carrusel-deskopt{
-  margin-top: 15em;
+  margin-top: 7em;
 }
 
 .carrusel-movil{
