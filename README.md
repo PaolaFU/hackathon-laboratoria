@@ -21,7 +21,9 @@ Para crear la aplicación se realizaron  entrevistas face to face y breves encue
 
 ## **Descripción del producto a realizar**
 
-Hoy en día hemos visto que soñar con ser un personaje de alguna película no es ir muy lejos, y que mejor el poder representar a un personaje perteneciente a Dc Comics o Marvel. Con la aplicación web que vamos a desarrollar; ayudará a definir cómo te podrías disfrazar, tener la opción de elegir ser un super-héroe o villano. Presentaremos todas las películas en las que tu personaje participó, dándote una idea de la evolución de vestuario y accesorios que tuvo, y presentándote las películas en las aparece con una breve descripción de cada una.
+La aplicación está diseñada para todas  aquellas personas  que se inician como conocedoras de las peliculas del  mundo Dc y Marvel. Esta muestra toda la información necesaria de cada una las películas y notas curiosas  del personaje elegido, haciendo la experiencia aún más rica, ya que se podrá obtener toda la información de la aparición del personaje favorito a lo largo de todas las películas, así como la variación de su atuendo.Esto hace que cada vez mayor publico sienta mayor interés por saber la trayectoria de su personaje y tambien aprender de los  trajes que sus héroes llevan en cada una de las apariciones en la pantalla grande.
+Finalmente el usuario se estará yendo con algo nuevo aprendido referente a la película y a su personaje.
+
 
 ## **Objetivo**
  * Darle al usuario  una experiencia satisfactoria tanto visual y funcional.
@@ -41,4 +43,4 @@ Hoy en día hemos visto que soñar con ser un personaje de alguna película no e
   * Materialize
   * HTML5
   * CSS3
-  * OMNb API
+  * OMDB API
