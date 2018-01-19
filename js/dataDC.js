@@ -53,36 +53,36 @@ var dc = {
     },
   },
   'Wonder Woman':{
-    'Foto-carrusel':{
-      'FOTO 1':{
+    'Fotos':{
+      'FOTO-1':{
         'img':'http://photos1.blogger.com/blogger/4167/3097/1600/mulemaravila.jpg',
         'texto':'Wonder Woman: Balance of Power'
       },
-      'FOTO 2':{
+      'FOTO-2':{
         'img':'https://images-na.ssl-images-amazon.com/images/M/MV5BYzRlNzYwYWEtYjMxNi00ZDQzLTk1ZTItODg1NTU1M2RlZTE3XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_SX333_AL_.jpg',
         'texto':'Wonder Woman 2013'
       },
-      'FOTO 3':{
+      'FOTO-3':{
         'img':'http://manapop.com/wp-content/uploads/2016/12/vlcsnap-2016-11-15-22h22m28s946.png',
         'texto':'Wonder Woman: Whos Afraid of Diana Prince? 1967'
       },
-      'FOTO 4':{
+      'FOTO-4':{
         'img':'http://mouse.latercera.com/wp-content/uploads/2017/05/crosby.jpg',
         'texto':'Wonder Woman 1974'
       },
-      'FOTO 5':{
+      'FOTO-5':{
         'img':'https://images-na.ssl-images-amazon.com/images/M/MV5BYmE0OTljMTItMWZiNi00YTcxLWFiYmQtY2Y5YmE4YjQwNTM3XkEyXkFqcGdeQXVyMTU2MjI3NTk@._V1_.jpg',
         'texto':'Wonder Woman 2011'
       },
-      'FOTO 6':{
+      'FOTO-6':{
         'img':'http://images3.static-bluray.com/products/20/17399_4_large.jpg',
         'texto':'Wonder Woman 1975–1979'
       },
-      'FOTO 7':{
+      'FOTO-7':{
         'img':'https://upload.wikimedia.org/wikipedia/en/thumb/a/af/WWPoster.jpg/220px-WWPoster.jpg',
         'texto':'Wonder Woman 2009'
       },
-      'FOTO 8':{
+      'FOTO-8':{
         'img':'https://i.ytimg.com/vi/38JK02f0zr0/maxresdefault.jpg',
         'texto':' Wonder Woman 2017'
       }
@@ -106,7 +106,7 @@ var dc = {
     },
   },
   'Batman':{
-    'Foto-carrusel':{
+    'Fotos':{
       'FOTO 1':{
         'img':'http://www.lascosasquenoshacenfelices.com/wp-content/uploads/2015/11/batman-under-the-red-hood-4ffb8aec0dd1b-1280x720.jpg',
         'texto':'Batman: Under the Red Hood'
@@ -143,7 +143,7 @@ var dc = {
     'Característica del personaje':'La identidad conocida de Batman es Bruce Wayne, un hombre de negocios exitoso que vive en Ciudad Gótica.',
     'Curiosidad 1': {
       'Información':'A lo largo de las apariciones cinematográficas, Batman ha ido mejorando su vesturio',
-      'Foto':'hhttps://ugc.kn3.net/i/origin/http://laprimeraplana.com.mx/wp-content/uploads/2012/07/BATMAN-PORTADA-605x300.jpg'
+      'Foto':'http://laprimeraplana.com.mx/wp-content/uploads/2012/07/BATMAN-PORTADA-605x300.jpg'
     },
     'Curiosidad 2': {
       'Información':'LOS BAT-PEZONES, aparecieron en Batman Forever, de completo negro, sin florituras en los detalles y sin poder girar el cuello',
@@ -159,7 +159,7 @@ var dc = {
     },
   },
   'Flash':{
-    'Foto-carrusel':{
+    'Fotos':{
       'FOTO 1':{
         'img':'https://media.baselineresearch.com/images/228837/228837_full.jpg',
         'texto':'Flash Gordon'
@@ -188,5 +188,3 @@ var dc = {
     },
   }
 }
-
-console.log (dc);

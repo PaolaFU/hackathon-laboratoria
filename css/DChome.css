@@ -33,8 +33,9 @@
 }
 
 .box-text{
-  margin:25px;
-  height:300px;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   background:#fff;
   border: solid black;
   border-color: black;
@@ -45,9 +46,14 @@
 }
 
 .text-comic{
-  width:300px;
-  margin:15px;
+  width:80%;
+  margin:10%;
   transform: rotate(-2deg);
+}
+
+.img-info1{
+  border-radius: 50%;
+  margin-top: 5%;
 }
 
 .nav-select, .logo{
@@ -59,8 +65,8 @@
 }
 
 .comic-content{
-  width: 600px;
-  height: 220px;
+  width: 100%;
+  height: 150px;
   top: 60px;
   position: relative;
   margin: 0px auto;
@@ -68,8 +74,8 @@
 }
 
 .text {
-  width: 320px;
-  height: 200px;
+  width: 85%;
+  height: 130px;
   position: absolute;
   left: 37px;
   transform: skew(-15deg);
@@ -79,18 +85,43 @@
 
 .text:before {
   content: "";
-  dislay: block;
   position: absolute;
-  height: 200px;
+  height: 130px;
   width: 20px;
   left: -27px;
   transform: skew(15deg);
   background: white;
   border-left: 1px solid rgba(0,0,0,0.05);
-   -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
+.content-inf-2{
+  display: inline-block;
+	width: 100%;
+	background-image: url('http://www.hdfondos.eu/preview/get_photo/72032/1920/1200');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 15%;
+	justify-content: flex-end;
+}
 
+.content-inf-5{
+  display: inline-block;
+	width: 100%;
+	background-image: url('https://images7.alphacoders.com/510/thumb-1920-510603.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 15%;
+	justify-content: flex-end;
+}
+.img-info3{
+  height: 150px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.style-h5{
+  font-size: 50px;
+}
 .content-box-comic{
   position: absolute;
   right: 0px;
@@ -98,6 +129,9 @@
   height: 95px;
 }
 
+.logo-dc{
+  margin: 20px;
+}
 
 figcaption{
     border-radius: 1px 100px 100px 100px;
@@ -113,38 +147,18 @@ figcaption{
     margin:100px;
 }
 
-/*dcFilme*/
-#slider-k {
-background: #fff;
-width: 600px;
-height: 300px;
-margin: 20px auto;
-overflow: hidden;
-border-radius: .5rem;
-box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
-}
-#slider-k .frame-k {
--moz-box-sizing: border-box;
-box-sizing: border-box;
-width: 30%;
-height: 100%;
-float: left;
-overflow: hidden;
-border-left: 10px solid #fff;
-pointer: cursor;
-box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
-transform: skewX(-20deg);
-transition: width 1.2s ease-in-out;
-}
-#slider-k:hover div {width: 108px;cursor: w-resize;}
-#slider-k:hover div:hover {
-width: 392px;}
 
-.frame-k img {
-margin-left: -55px;
-transform: skewX(20deg);
-
+/*section:hover article{
+  animation-play-state: paused;
+}*/
+#m {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
 }
 
-#slider-k > div:first-child {margin-left: -63px;}
-#slider-k > div:last-child {margin-right: -63px;}
+#m img {
+  position: absolute;
+  opacity: 0;
+  height: 300px;
+}
