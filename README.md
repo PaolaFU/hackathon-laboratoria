@@ -9,12 +9,15 @@ Para crear la aplicación se realizaron  entrevistas face to face y breves encue
 
 ## **Planificación**
 
-![Planificaión](assets/images/planificaión.jpg)
+![Planificaión](assets/images/planificación.jpg)
 
 ## **Prototipos iniciales**
 
 ![Prototipos](assets/images/image1.jpeg)
 ![Prototipos](assets/images/image2.jpeg)
+
+## **Producto final**
+
 
 ## **Descripción del producto a realizar**
 
