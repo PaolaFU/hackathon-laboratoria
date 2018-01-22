@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).on('load', function() {
   var pelisSection = $('#peliculas');
   $('#peliculas').empty();
   var inputMovie = window.localStorage.getItem('character');

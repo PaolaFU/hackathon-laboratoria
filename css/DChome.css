@@ -165,16 +165,17 @@ figcaption{
   opacity: 0;
   height: 300px;
 }*/
-
-.img-data{
-  border-radius: 50%;
-  height: 200px;
-  width: 80%;
-  margin-top: 3%;
+#m {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
 }
 
-.cont-film{
-  width: 80%;
+.img-data {
+ position: absolute;
+ opacity: 0;
+ height: 400px;
+ margin-top: -100px;
 }
 
 #peliculas img{
